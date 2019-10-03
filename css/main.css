@@ -1,0 +1,151 @@
+/***** HOME GRID *****/
+body {
+    font-family: 'Libre Baskerville', serif;
+    color: #0D698B;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.half-width {
+    float: left;
+    height: 400px;
+    margin: 0 auto;
+    text-align: left;
+    width: 600px;
+}
+
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    background: url('../img/hero-image.png');
+    background-size: cover;
+    height: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #E34234;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    padding: 250px 50px 0px 50px;
+    text-align: center;
+}
+
+header h2 {
+    color: #0D698B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight:lighter;
+    padding: 50px 150px 150px 150px;
+    text-align: center;
+}
+
+/***** PORTFOLIO SECTION *****/
+
+#portfolio {
+    height: 1300px;
+    margin: 0 auto;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+#portfolio img {
+    border: 1px 1px 1px 1px color #b7b7b7;
+}
+
+#portfolio h2 {
+    color: #0D698B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    padding: 50px;
+}
+
+#portfolio h3 {
+    color: #0D698B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 12px;
+}
+
+#portfolio p {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#portfolio span {
+    font-weight: bold;
+}
+
+/***** ABOUT/BIO SECTION *****/
+
+#about {
+    background: #0D698B;
+    clear: left;
+    height: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #F2F1E8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+#about p {
+    color: #F2F1E8;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+/***** CONTACT/FOOTER *****/
+
+#contact {
+    background: #050533;
+    clear: left;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #F2F1E8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    padding: 30px 30px 0px 30px;
+}
+
+#contact h6 {
+    color: #F2F1E8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#contact p {
+    color: #F2F1E8;
+}
+
+.copyright {
+    clear: left;
+    padding: 50px;
+}
+
+.copyright p {
+    color: #F2F1E8;
+    font-size: 18px;
+    text-align: center;
+}
